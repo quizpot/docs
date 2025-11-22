@@ -6,25 +6,73 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1a73e8;
+
+  --ifm-color-primary-dark: #1766cf;   
+  --ifm-color-primary-darker: #155cb7; 
+  --ifm-color-primary-darkest: #114c95;
+
+  --ifm-color-primary-light: #2c7de9;  
+  --ifm-color-primary-lighter: #428cec;
+  --ifm-color-primary-lightest: #6a9cee;
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-background-color: lab(100% 0 0)
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #4285f4;
+
+  --ifm-color-primary-dark: #3b79e7;
+  --ifm-color-primary-darker: #366fcd;
+  --ifm-color-primary-darkest: #2e5da9;
+
+  --ifm-color-primary-light: #5992f5; 
+  --ifm-color-primary-lighter: #6fa0f7;
+  --ifm-color-primary-lightest: #94b9fb;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-background-color: lab(2.75381% 0 0);
+}
+
+.navbar {
+  background-color: lab(96.52% -.0000298023 .0000119209);
+}
+
+[data-theme='dark'] .navbar {
+  background-color: lab(7.78201% -.0000149012 0);
+}
+
+.navbar__title {
+  font-size: 1.5rem;
+}
+
+.footer {
+  background-color: lab(96.52% -.0000298023 .0000119209);
+  color: black;
+}
+
+.footer__title {
+  color: black;
+}
+
+.footer__link-item {
+  color: black;
+}
+
+[data-theme='dark'] .footer {
+  background-color: lab(7.78201% -.0000149012 0);
+  color: white;
+}
+
+[data-theme='dark'] .footer__title {
+  color: white;
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: white;
 }
