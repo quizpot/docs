@@ -51,9 +51,9 @@ const config: Config = {
         {
           type: 'localeDropdown'
         },
-        {
-          type: 'docsVersionDropdown',
-        },
+        // {
+        //   type: 'docsVersionDropdown',
+        // },
         {
           href: 'https://quizpot.app',
           label: 'Home',
