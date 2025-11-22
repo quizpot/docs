@@ -19,6 +19,7 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en','sk','cs'],
   },
+
   presets: [
     [
       'classic',
@@ -113,6 +114,16 @@ const config: Config = {
       additionalLanguages: ['bash'],
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    [
+      "@dipakparmar/docusaurus-plugin-umami",
+      ({
+        websiteID: "601c695f-b168-4e17-8e76-bcbf94170440",
+        analyticsDomain: "anal.kragleh.com",
+      }),
+    ],
+  ]
 }
 
 export default config
