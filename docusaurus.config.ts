@@ -91,6 +91,10 @@ const config: Config = {
           title: 'More',
           items: [
             {
+              label: 'Home',
+              to: 'https://quizpot.app',
+            },
+            {
               label: 'Roadmap',
               to: 'https://quizpot.app/roadmap',
             },
