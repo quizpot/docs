@@ -5,9 +5,9 @@ sidebar_position: 2
 
 ## Hardware Requirements
 
-- 2 Cores
-- ~2GB of RAM
-- 2GB of Storage
+- 2 CPU Cores
+- ~2 GB of RAM
+- 2 GB of Storage
 - Stable Internet Connection
 
 ## Software Requirements
