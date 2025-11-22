@@ -5,7 +5,7 @@ sidebar_position: 3
 
 Sprievodca, ako nainštalovať a spustiť Quizpot na vašom zariadení.
 
-### Install Git & Node.js
+### Nainštalujte Git a Node.js
 
 ```sh
 # Debian/Ubuntu
