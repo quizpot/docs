@@ -42,12 +42,13 @@ Otvorte súbor .env vo svojom textovom editore `Napr: nano .env` a upravte nasle
 
 ```bash title=".env"
 NEXT_PUBLIC_WS_URL=ws://localhost:3000/api/ws # Nahraďte `localhost:3000` s URL, ktorú budete používať na prístup k vašej inštancii Quizpotu
-NEXT_PUBLIC_GEMINI_KEY=key # Voliteľné: Nahraďte `key` vaším Gemini API kľúčom, ktorý môžete získať z https://aistudio.google.com
 NEXT_PUBLIC_PIXABAY_KEY=key # Voliteľné: Nahraďte `key` vaším Pixabay API kľúčom, ktorý môžete získať z https://pixabay.com/api/docs/ (Nachádza sa v tabuľke parametrov po prihlásení)
 
 # Voliteľné: Pre analytiku od Umami
 NEXT_PUBLIC_UMAMI_URL=https://umami.example.com 
 NEXT_PUBLIC_UMAMI_ID=id
+
+GEMINI_KEY=key # Voliteľné: Nahraďte `key` vaším Gemini API kľúčom, ktorý môžete získať z https://aistudio.google.com
 ```
 
 > Poznámka: Odstráňte hodnoty alebo celé riadky voliteľných premenných, ak ich nepotrebujete.
